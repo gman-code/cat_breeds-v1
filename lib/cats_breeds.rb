@@ -1,6 +1,19 @@
-require "cats_breeds/version"
+class Cat
+    attr_accessor :name,  :origin, :description, :temperament
 
-module CatsBreeds
-  class Error < StandardError; end
-  # Your code goes here...
-end
+    @@all =[]   
+
+    def initialize(name: ,  origin: , temperament: , description:)
+        @name = name
+        @origin = origin
+        @temperament = temperament
+        @description = description
+        @@all << self 
+    end
+    
+    def self.all
+        @@all
+    end
+end   
+
+    
