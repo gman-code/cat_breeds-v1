@@ -56,12 +56,7 @@ class CLI
     #         print_breed 
     #         breed_selection
     #         elsif if the input is start 
-    #         run
-    #         else 
-    #             put "wrong input try again!"
-    #             user_selection_1    
-    #         end
-    # end
+    #
     def display_cat_info    
         puts " "
         puts "#{@cat.origin}"
