@@ -13,7 +13,6 @@ class CLI
         puts "***************"
         puts ""
         puts "enter a letter to get list breeds"
-        # puts "Enter a fact about your cat or 'exit' to exit."
         puts ""
     end
     def user_selection
