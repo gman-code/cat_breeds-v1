@@ -5,8 +5,7 @@ class CLI
       get_breeds
       print_breeds
     #   temperaments
-    #   print_temperaments
-      breed_selection
+     breed_selection
     end
     def welcome 
         puts ""
