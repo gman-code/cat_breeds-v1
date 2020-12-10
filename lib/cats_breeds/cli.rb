@@ -43,18 +43,7 @@ class CLI
         end
         goodbye
     end 
-    # def user_selection_1
-    #     puts " if  user option is 3 exit to exit " sentence user 3 option exit to exit 
-    #     # option2 go back to breeds
-    #     # go back the very beg to letter selection
-    #     input = gets.strip.downcase
-    #     if input is 'exit' 
-    #         goodbye
-    #     elsif the input is back
-    #         print_breed 
-    #         breed_selection
-    #         elsif if the input is start 
-    #
+    
     def display_cat_info    
         puts " "
         puts "#{@cat.origin}"
