@@ -84,7 +84,6 @@ class CLI
         puts "Thank You, have a great day!" 
         puts "BYE!" 
     end
-    
 end 
                 
        
