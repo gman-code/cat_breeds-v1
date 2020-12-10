@@ -1,4 +1,4 @@
-lass Cat
+class Cat
     attr_accessor :name,  :origin, :description, :temperament
 
     @@all =[]   
