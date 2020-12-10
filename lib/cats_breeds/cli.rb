@@ -4,7 +4,7 @@ class CLI
       user_selection
       get_breeds
       print_breeds
-    #   temperaments
+  
      breed_selection
     end
     def welcome 
