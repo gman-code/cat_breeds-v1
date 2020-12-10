@@ -1,8 +1,8 @@
-class Cat
+lass Cat
     attr_accessor :name,  :origin, :description, :temperament
+
     @@all =[]   
 
-    
     def initialize(name: ,  origin: , temperament: , description:)
         @name = name
         @origin = origin
@@ -10,8 +10,8 @@ class Cat
         @description = description
         @@all << self 
     end
-
-   def self.all
-     @@all
+    
+    def self.all
+        @@all
     end
 end   
