@@ -38,7 +38,7 @@ class CLI
             while input != 'exit' 
                 if input.to_i > 0 && input.to_i <= @cats.length  
                     @cat = @cats[input.to_i - 1] 
-                    @cats.display_cat_stats
+                    @cat.display_cat_stats
                     user_selection_1
                     break
                 elsif    
