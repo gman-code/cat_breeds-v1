@@ -12,7 +12,7 @@ class CLI
         puts "welcome to cats breeds"
         puts "***************"
         puts ""
-        puts "Enter a letter to get list of breeds, there is no breeds with these letters q,w,u,i,f,g,z,x,v,b"
+        puts "Enter a letter to get list of breeds, there is no breeds with these letters q,w,u,i,f,g,z,x,v"
         puts ""
     end
         
