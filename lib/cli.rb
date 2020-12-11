@@ -38,7 +38,7 @@ class CLI
             while input != 'exit' 
                 if input.to_i > 0 && input.to_i <= @cats.length  
                     @cat = @cats[input.to_i - 1] 
-                    display_cat_info
+                    @cats.display_cat_stats
                     user_selection_1
                     break
                 elsif    
@@ -82,9 +82,10 @@ class CLI
             puts ""
         end     
         def print_breeds 
-            @cats.each.with_index(1) do |c, i|
-            puts "#{i}. #{c.name}"
-            end 
+            # @cats.each.with_index(1) do |c, i|
+            # puts "#{i}. #{c.name}"
+            # end 
+            Cat.display_cats_table(@cats)
         end 
 
         def goodbye
