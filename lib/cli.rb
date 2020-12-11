@@ -86,6 +86,7 @@ class CLI
             puts "#{i}. #{c.name}"
             end 
         end 
+
         def goodbye
             puts "Thanks for using Cat Breed have a great day!" 
         end  
