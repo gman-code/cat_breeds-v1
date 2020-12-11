@@ -10,10 +10,17 @@ class Cat
         @description = description
         @@all << self 
     end
-    
+
     def self.all
         @@all
     end
+    def self.cats(cats)
+        cats_table = TTY::Table.new(header: ["Id", "CAT"])
+        cats.each.with_index(1) do |cat, i| 
+        cats_table << ["#{i}".blue, "#{cat.name}"]
+    end
+    puts cats_table.render(:unicode)
+  end
 end   
 
     
