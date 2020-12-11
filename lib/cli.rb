@@ -28,6 +28,7 @@ class CLI
         if @cats == []
             puts "Sorry no breeds with letter #{@breed_input[0]}"
             run
+            user_selection
         end
     end
         
