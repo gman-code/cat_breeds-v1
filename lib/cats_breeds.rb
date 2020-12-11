@@ -22,9 +22,9 @@ class Cat
         puts cats_table.render(:unicode)
     end
 
-    def self.display_cats_stats
-        cats_table = TTY::Table.new(header: ["Id", "Name", "Origin", "Description", "Temperament"])
-        cats_table << ["#{i}".blue, "#{self.name}", "#{self.origin}", "#{self.description}", "#{self.temperament}"]
+    def self.display_cat_stats
+        cats_table = TTY::Table.new(header: ["Id".red, "Name".blue, "Origin".orange, "Description".yellow, "Temperament".white])
+        cats_table << ["#{self.name}", "#{self.origin}", "#{self.description[0..100]...}", "#{self.temperament}"]
         puts cats_table.render(:unicode)
     end
 end

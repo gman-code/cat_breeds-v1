@@ -50,7 +50,7 @@ class CLI
             end
             
         end 
-        
+         
         def user_selection_1
             puts"type 'exit' to exit" 
             puts "type  'back' to go back to breeds lists!" 
