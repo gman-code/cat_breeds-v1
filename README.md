@@ -7,7 +7,7 @@ The options that are given from A-Z and following with numeric chooses of the wh
 
  $ gem install cats_breeds
 
-this is the line to application's Gemfile:
+This is the line to application's Gemfile:
 
 ```ruby
 gem 'cats_breeds'

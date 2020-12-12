@@ -10,7 +10,7 @@ class CLI
       
     def welcome 
         puts ""
-        puts "welcome to cats breeds"
+        puts "Welcome To Cats Breeds"
         puts "***************"
         puts ""
         puts "Enter a letter to get list of breeds, there is no breeds with these letters q,w,u,i,f,g,z,x,v"
@@ -54,7 +54,7 @@ class CLI
          
         def user_selection_1
             puts "type 'exit' to exit" 
-            puts " type 'all' to get the description.[if_touched]"
+            puts "type 'all' to get the description.[if_touched]"
             puts "type  'back' to go back to breeds lists!" 
             puts "Please type 'start' to go back to the very beginning the letter selection!" 
             input = gets.strip.downcase
