@@ -1,6 +1,6 @@
 # CatsBreedsCLI 
 This cats_breed app , it is easy friendly direct and to the point. 
-The options that are given from A-Z and following with numeric chooses of the what breeds with that specific letter. The breed selection is organized and easy to read with the origin, description and temperament that is compatible with owners life style.
+The options that are given from A-Z and following with numeric chooses of the breeds with that specific letter. The breed selection is organized and easy to read with the origin, description and temperament that is compatible with owners life style.
 ## The installation
 
  Installation
