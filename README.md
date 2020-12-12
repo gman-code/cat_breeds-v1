@@ -1,11 +1,15 @@
 # CatsBreedsCLI 
-This 
+This catsbreed app , it is a easy friendly direct and to the point. 
+The options that are given from A-Z and following with numeric chooses of the what breeds with that specfic letter.
+The breed slection is organized and easy to read with the origin, description and temperament that is compatable with owners life style.
 
-The installation
+## The installation
 
-## Installation
+ Installation
 
-Add this line to your application's Gemfile:
+ $ gem install cats_breeds
+
+this is the line to application's Gemfile:
 
 ```ruby
 gem 'cats_breeds'
@@ -20,8 +24,8 @@ Or install it yourself as:
     $ gem install cats_breeds
 
 ## Usage
+To begin the app, after installing enter either through the whole folder cat_breeds 
 
-TODO: Write usage instructions here
 
 ## Development
 
