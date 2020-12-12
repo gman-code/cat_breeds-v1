@@ -31,11 +31,11 @@ Or install it yourself as:
 
 ## Usage
 
-To begin the app, after installing enter either through the whole folder 
-cat_breeds in the terminal or the command line. This user friendly app, prompt a letter , 
-from there if not found the send back to selection and or exit. If the user selects a letter within the scope the app have then ,
+To begin the app, after installing... enter either through the whole folder CLI PROJECTS or 
+cat_breeds in the terminal or the command line. This is a user friendly app, prompt a letter , 
+from there if not found will send back to breeds selection and or exit. If the user selects a letter within the scope of the app then ,
 the following is provided  choose a # from above selection and the feed back will provide origin, description and temperament. 
-After all given it is it will prompt again to exit, all for more and back the list of breeds or start from begining. Lastly will prompt thank you for using this app.
+After all given it will prompt again to 'exit', 'all' for more description and 'back' to the list of breeds or start from begining. Lastly will prompt thank you for using this app.
 
 
 ## Development
