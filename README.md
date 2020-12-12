@@ -1,8 +1,9 @@
 # CatsBreeds
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cats_breeds`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome 'cats_breeds gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. My Ruby code in the file `lib/cats_breeds`. To experiment with that code, run in the whole folder CLI PROJECT,'cats_breeds./lib./run', in cat_breeds run './run for an interactive prompt.
+CLI_
 
- Delete this and the text above, and describe your gem
+The installation
 
 ## Installation
 

@@ -17,14 +17,14 @@ class Cat
     def self.display_cats_table(cats)
         cats_table = TTY::Table.new(header: ["Id", "CAT"])
         cats.each.with_index(1) do |cat, i| 
-            cats_table << ["#{i}".blue, "#{cat.name}"]
+            cats_table << ["#{i}".blue, "#{cat.name}."]
         end
         puts cats_table.render(:unicode)
     end
 
     def display_cat_stats
-        cats_table = TTY::Table.new(header: ["Id".red, "Name".blue, "Origin".red, "Description".yellow, "Temperament".white])
-        cats_table << ["#{self.name}", "#{self.origin}", "#{self.description[0..100]...}", "#{self.temperament}"]
+        cats_table = TTY::Table.new(header: ["Name".blue, "Origin".red, "Description".yellow, "Temperament".white])
+        cats_table << ["#{self.name}", "#{self.origin}", "#{self.description[0..100]}...", "#{self.temperament}"]
         puts cats_table.render(:unicode)
     end
 end
