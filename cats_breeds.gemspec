@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["g-man"]
   spec.email         = ["chemist2ever@gmail.com"]
 
-  spec.summary       =  "bundle for this gem is to help the user to input user friendly and able to  because RubyGems requires one."
-  spec.description   = "Write a longer description or delete this line."
+  spec.summary       = "Cats_Breeds"
+  spec.description   = "Learn more about cats_breeds to provide more details for the to be owner to fit their life style "
 
   # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
