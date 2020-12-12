@@ -28,5 +28,3 @@ class Cat
         puts cats_table.render(:unicode)
     end
 end
-    
-        

@@ -1,17 +1,16 @@
 class CLI
     def run
-        puts ""
-        puts "welcome to cats breeds"
-      welcome
-      user_selection
-      get_breeds
-      no_breeds
-      print_breeds
-      breed_selection
+        welcome
+        user_selection
+        get_breeds
+        no_breeds
+        print_breeds
+        breed_selection
     end
+      
     def welcome 
         puts ""
-        # puts "welcome to cats breeds"
+        puts "welcome to cats breeds"
         puts "***************"
         puts ""
         puts "Enter a letter to get list of breeds, there is no breeds with these letters q,w,u,i,f,g,z,x,v"
