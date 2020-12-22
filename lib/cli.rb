@@ -19,16 +19,17 @@ class CLI
         
     def user_selection
         @breed_input = gets.strip.downcase
-        API.get_cats
+        API.get_cats if Cat.all == []
     end
+        
     
     def get_breeds
         @cats=Cat.all.select {|cat|cat.name[0].downcase == @breed_input[0]}
     end 
     def no_breeds
         if @cats == []
-            puts "Sorry no breeds with letter #{@breed_input[0]}"
-             user_selection_1
+            puts "start again sorry no breeds with letter #{@breed_input[0]}"
+             run
             end
         end
 
@@ -42,7 +43,10 @@ class CLI
                     @cat.display_cat_stats
                     user_selection_1
                     break
-                elsif    
+                elsif input == "exit"
+                    return goodbye
+                    exit
+                else    
                     puts "Sorry that did not match any breeds, please pick from option above!, Try again "  
                     print_breeds
                     breed_selection
@@ -67,6 +71,7 @@ class CLI
                 run
                 elsif input == "all"
                     puts @cat.description.yellow
+                    user_selection_1
             else 
                 puts "incorrect input try again"
                 user_selection_1    
@@ -92,4 +97,5 @@ class CLI
             puts "Thanks for using Cat Breed have a great day!" 
         end  
     end
+            
         
